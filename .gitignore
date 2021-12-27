@@ -1,32 +1,37 @@
-# Prerequisites
-*.d
+.idea/
+.vscode
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+*.pyc
+*.tar.gz
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+Makefile
+build
+install_manifest.txt
+cmake-build-debug/
+**/build
+**/thirdparty/include
+**/thirdparty/lib
+**/thirdparty/bin
+**/CMakeCache.txt
+**/CMakeFiles
+**/cmake_install.cmake
+**/Makefile
+**/install_manifest.txt
+**/venv
+**/CPPLINT.cfg
+doxygen_output
 
-# Precompiled Headers
-*.gch
-*.pch
+debian/*
+!debian/rules
+!debian/control
+!debian/compat
+!debian/changelog
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+obj-x86_64-linux-gnu
+TAGS
+**/TAGS
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*bak
+**/*bak
