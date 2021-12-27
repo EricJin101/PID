@@ -1,2 +1,0 @@
-/home/trunk/eric/myProject/PID/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/trunk/eric/myProject/PID/cmake-build-debug/CMakeFiles/edit_cache.dir
