@@ -122,7 +122,7 @@ class TestingPID:
         plt.ylim([lim_y, range_y * self.goal])
         plt.title('Proportion Integral Derive')
 
-        print('----------------'*10)
+        print('----------------'*5)
         print(self.Ktop)
         print(self.peak_time)
         plt.show()

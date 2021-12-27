@@ -9,7 +9,7 @@ cmake_install.cmake
 Makefile
 build
 install_manifest.txt
-cmake-build-debug/
+/cmake-build-debug/
 **/build
 **/thirdparty/include
 **/thirdparty/lib
