@@ -1,11 +1,16 @@
 # -*- encoding: UTF-8 -*-
-# import sys
-# reload(sys)
-# sys.setdefaultencoding("utf-8")
 import matplotlib.pyplot as plt
 '''
-@brief
+假设水箱，需要将水位维持在1m处
+水箱每秒漏0.1m
+每次添加
+P： Kp * (1m - 当前水位)
+PI： Kp * (1m - 当前水位) + Ki × （每次加水误差和）
+PID： Kp * (1m - 当前水位) + Ki × （每次加水误差和）+ Kd * (本次误差 - 上次误差)
 '''
+
+# 这样的系统本身就是积分，因为水位是累加的
+# 如果是电机，那么输入降低，“水位”不维持，会降低
 
 
 class TestingPID:
