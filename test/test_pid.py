@@ -17,7 +17,7 @@ class TestingPID:
     def __init__(self):
         self.Kp = 0.5
         self.Ki = 0.5
-        self.Kd = 2.8
+        self.Kd = 2.9
         self.Resistance = -0.1
         self.loop = 300
         self.Ktop = {'p': 0.0, 'pi': 0.0, 'pid': 0.0}
