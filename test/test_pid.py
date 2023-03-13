@@ -26,6 +26,7 @@ class TestingPID:
         self.dt = 0.1
 
     def test_p(self):
+        # 存在稳态误差
         output_sequence = []
 
         level = 0.2
@@ -45,6 +46,7 @@ class TestingPID:
         return output_sequence
 
     def test_pi(self):
+        # 可能超调
 
         global Ktop
         output_sequence = []
